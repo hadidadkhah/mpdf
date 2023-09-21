@@ -286,6 +286,21 @@ class FontVariables
 				"unbatang" => [/* Korean */
 					'R' => "UnBatang_0613.ttf",
 				],
+				/* persian font support */
+		                "zar" => [
+		                    'R' => "XBZar.ttf", // regular
+		                    'B' => "XBZarBd.ttf", // bold, optional
+		                    'I' => "XBZarI.ttf", // italic, optional
+		                    'BI' => "XBZarBdIt.ttf", // bold and italic, optional
+		                    'useOTL' => 0xFF,
+		                    'useKashida' => 75,
+		                ],
+		                "mitra" => [
+		                    'R' => "IRMitra.ttf", // regular
+		                    'B' => "IRMitraBold.ttf", // bold, optional
+		                    'useOTL' => 0xFF,
+		                    'useKashida' => 75,
+		                ],
 			],
 
 			// Add fonts to this array if they contain characters in the SIP or SMP Unicode planes
